@@ -1,0 +1,117 @@
+# PARTH MASTER CAVE CONFIG
+# This file is safe to commit (no secrets here)
+
+applicant:
+  name: "Parth Patel"
+  first_name: "Parth"
+  last_name: "Patel"
+  email: "parth33320@gmail.com"
+  phone: "267-416-5903"
+  address:
+    street: "13 Shannon Way"
+    city: "Feasterville Trevose"
+    state: "PA"
+    zip: "19053"
+    country: "USA"
+    full: "13 Shannon Way, Feasterville Trevose, PA, 19053, USA"
+  linkedin_url: "https://www.linkedin.com/in/parth-patel-91316b228/"
+  github_url: "N/A"
+  portfolio_url: "N/A"
+  salary_expectation: "40000"
+
+work_history:
+  - company: "Spectraforce"
+    title: "Analyst"
+    start_date: "05/2011"
+    end_date: "Present"
+    currently_working: true
+    location: "Philadelphia, PA"
+    description: "N/A"
+
+education:
+  - school: "Temple University"
+    degree: "Master of Science"
+    field: "Finance"
+    graduation_date: "05/2015"
+    gpa: "3.8"
+
+eeo_responses:
+  # Bot will try to match these or pick "Prefer not to answer" / first option
+  gender: "Prefer not to answer"
+  race_ethnicity: "Prefer not to answer"
+  veteran_status: "Prefer not to answer"
+  disability_status: "Prefer not to answer"
+  us_citizen: "Yes"
+  require_sponsorship: "No"
+  previously_employed_here: "No"
+  worked_with_affiliates: "No"
+  has_clearance: "No"
+  how_did_you_hear: "Job Board"
+
+job_search:
+  titles:
+    - "account executive"
+    - "data analyst"
+    - "project manager"
+    - "business analyst"
+    - "project coordinator"
+    - "recruiter"
+    - "regulatory affairs associate"
+    - "supply chain analyst"
+    - "procurement analyst"
+    - "scrum master"
+    - "software developer"
+    - "writer"
+    - "hr business partner"
+    - "software engineer"
+    - "admin"
+    - "executive admin"
+    - "administrative assistant"
+    - "program manager"
+    - "operations analyst"
+    - "talent acquisition"
+    - "technical writer"
+    - "business operations"
+    - "data entry"
+    - "client success"
+    - "customer success"
+    - "sales operations"
+    - "HR coordinator"
+    - "people operations"
+    
+  locations:
+    - "remote"
+    - "USA"
+    
+  experience_levels:
+    - "entry level"
+    - "junior"
+    - "associate"
+    - "0-2 years"
+    - "1-3 years"
+
+  # ATS platforms to search
+  ats_domains:
+    workday: "myworkdayjobs.com"
+    greenhouse: "boards.greenhouse.io"
+    icims: "icims.com"
+
+blacklist_companies:
+  - "spectraforce"
+  - "l3harris"
+  - "raytheon"
+  - "kelly"
+  - "vanguard"
+  - "merck"
+  - "johnson and johnson"
+  - "j&j"
+  - "kelly services"
+
+# Bot behavior
+settings:
+  max_applications_per_day: 15  # Safe number to avoid captchas
+  dry_run: true  # Set to false after testing
+  dry_run_count: 100  # Switch to live mode after this many dry runs
+  wait_for_approval: true  # Always wait for ntfy approval in dry run
+  screenshot_on_apply: true
+  timeout_minutes: 30  # How long to wait for your ntfy response
