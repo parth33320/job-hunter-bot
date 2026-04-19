@@ -1,0 +1,21 @@
+# Secrets - NEVER COMMIT THESE
+.env
+*.json
+service_account.json
+
+# Database
+*.db
+*.sqlite
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Screenshots from dry run
+screenshots/
+
+# IDE
+.vscode/
+.idea/
