@@ -2,9 +2,9 @@
 # This file is safe to commit (no secrets here)
 
 applicant:
-  name: "Parth Patel"
-  first_name: "Parth"
-  last_name: "Patel"
+  name: "X"
+  first_name: "X"
+  last_name: "X"
   email: "X"
   phone: "X"
   address:
